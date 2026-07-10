@@ -147,7 +147,7 @@ The project demonstrates how combining vector and raster datasets provides great
 ---
 
 ## Related Project
-This project builds upon my earlier Python implementation from the **Earth Lab – Earth Data Analytics** course.
+This project builds upon my earlier Python implementation from the **Earth Lab – Earth Data Analytics** course textbook.
 
 **Python Repository:** [Earth Data Science Plotting Practice](https://github.com/benny019/earth-data-science-plotting/blob/main/4.%20Plotting%20Practice.ipynb)
 The two projects demonstrate equivalent geospatial workflows implemented in different environments:
