@@ -1,12 +1,12 @@
 # Trail and Terrain Visualization in Rocky Mountain National Park using QGIS
 
-![Final Map](images/final-map.png)
+![Final Map](outputs/final-map.png)
 
 ## Overview
 
-This project demonstrates a complete GIS workflow in **QGIS** using geospatial datasets from **Rocky Mountain National Park (RMNP), Colorado, USA**. The project integrates vector and raster data to visualize hiking trails within the park's South Ranger Zone and explores how **Digital Elevation Models (DEMs)** and **hillshade** enhance terrain representation in cartographic maps.
+This project demonstrates a complete GIS workflow in **QGIS** using geospatial datasets from **Rocky Mountain National Park (RMNP), Colorado, USA**. The project integrates vector and raster data to visualize hiking trails within the park's South Ranger Zone and explores how **Digital Elevation Models (DEMs)** and hillshade enhance terrain representation in cartographic maps.
 
-Rather than being a standalone exercise, this project represents an important progress in my geospatial learning journey. It was developed as my **first desktop GIS project in QGIS**, where I recreated and expanded a terrain visualization workflow that I had originally completed in **Python** from the **Earth Lab – Earth Data Analytics** course textbook. 
+Rather than being a standalone exercise, this project represents an important progress in my geospatial learning journey. It was developed as my first desktop GIS project in QGIS, where I recreated and expanded a terrain visualization workflow that I had originally completed in Python from the **Earth Lab – Earth Data Analytics** course textbook. 
 
 The original Python implementation, available in my **Earth Data Science Plotting** repository, focused on generating maps programmatically using GeoPandas, Rasterio, and Matplotlib. In this QGIS version, I translated that workflow into a desktop GIS environment while gaining hands-on experience with interactive spatial data processing, raster analysis, symbology, and cartographic design.
 
@@ -78,14 +78,14 @@ Final Cartographic Output
 ### 1. Creating the Hillshade
 A hillshade raster was generated from the clipped Digital Elevation Model to simulate terrain illumination and improve the visual perception of relief.
 
-![Hillshade Generation](images/step1_hillshade_generation.png)
+![Hillshade Generation](images/hillshade-generation.png)
 
 ---
 
 ### 2. Integrating the Trail Network with the DEM
 The clipped hiking trails were overlaid on the Digital Elevation Model to provide elevation context and demonstrate the relationship between terrain and the trail network.
 
-![DEM Visualization](images/step2_dem_visualization.png)
+![DEM Visualization](images/dem-visualization.png)
 
 ---
 
@@ -105,7 +105,7 @@ This progression illustrates how terrain visualization techniques enhance the in
 ## Final Output
 The completed map layout integrates vector and raster datasets into a publication-style cartographic product.
 
-![Final Map](images/final_map.png)
+![Final Map](images/layout-design.png)
 
 ---
 
@@ -147,10 +147,9 @@ The project demonstrates how combining vector and raster datasets provides great
 ---
 
 ## Related Project
-This project builds upon my earlier Python implementation comduring the **Earth Lab – Earth Data Analytics** course.
+This project builds upon my earlier Python implementation from the **Earth Lab – Earth Data Analytics** course.
 
-**Python Repository:** *Earth Data Science Plotting* (add repository link here)
-
+**Python Repository:** [Earth Data Science Plotting Practice](https://github.com/benny019/earth-data-science-plotting/blob/main/4.%20Plotting%20Practice.ipynb)
 The two projects demonstrate equivalent geospatial workflows implemented in different environments:
 
 - **Python:** GeoPandas, Rasterio, Matplotlib
